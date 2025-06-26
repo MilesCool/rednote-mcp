@@ -307,7 +307,6 @@ async function getNoteDetail(context: BrowserContext, noteInfo: {title: string, 
     
     // Get detailed data
     const detailData = await getNoteDetailData(notePage);
-    
     // // Can save screenshot for debugging
     // await notePage.screenshot({ path: `note-${index + 1}.png` });
     
