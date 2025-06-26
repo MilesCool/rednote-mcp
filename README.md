@@ -186,13 +186,6 @@ rednote-mcp/
 3. **Browser Not Found**: Run `pnpm exec playwright install` to install browsers
 4. **Permission Errors**: Ensure the project directory has proper read/write permissions
 
-### Debug Mode
-
-Set environment variable for verbose logging:
-```bash
-DEBUG=1 pnpm start
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
